@@ -1,16 +1,41 @@
 resources = {
+
 	oil = {
 		icon_frame = 1
 		cic = 0.05
 		convoys = 0.5 #### 1 convoy ship 1/5 million ton a year
 	}
-
+	
+	aluminium = {
+		icon_frame = 2
+		cic = 0.005
+		convoys = 0.001
+	}
+	
 	rubber = {
 		icon_frame = 3
 		cic = 0.013
 		convoys = 0.00166
 	}
-
+	
+	tungsten = {
+		icon_frame = 4
+		cic = 0.01 ####Just a random estimate for now
+		convoys = 0.01 ##### Also a random estimate
+	}
+	
+	steel = {
+		icon_frame = 5
+		cic = 0.033
+		convoys = 0.05
+	}
+	
+	chromium = {
+		icon_frame = 6
+		cic = 0.005
+		convoys = 0.00125
+	}	
+	
 	coal = {
 		icon_frame = 7
 		cic = 0.0125
@@ -22,34 +47,11 @@ resources = {
 		cic = 0.001
 		convoys = 0.0025
 	}
-
-	aluminium = {
-		icon_frame = 2
-		cic = 0.005
-		convoys = 0.001
-	}
 	
 	iron = {
 		icon_frame = 9
 		cic = 0.007
 		convoys = 0.075
 	}
-
-	steel = {
-		icon_frame = 5
-		cic = 0.033
-		convoys = 0.05
-	}
-
-	tungsten = {
-		icon_frame = 4
-		cic = 0.01 ####Just a random estimate for now
-		convoys = 0.01 ##### Also a random estimate
-	}
 	
-	chromium = {
-		icon_frame = 6
-		cic = 0.005
-		convoys = 0.00125
-	}	
 }
