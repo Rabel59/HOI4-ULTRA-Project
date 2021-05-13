@@ -1742,7 +1742,7 @@ country_event = { #Validation
 			transfer_state = 328
 			transfer_state = 715
 			transfer_state = 716
-			transfer_state = 934
+			transfer_state = 921
 			transfer_state = 610
 			transfer_state = 745
 			transfer_state = 609
@@ -1750,6 +1750,29 @@ country_event = { #Validation
 			transfer_state = 611	
 			transfer_state = 527
 			transfer_state = 525
+			transfer_state = 921
+			transfer_state = 940
+			transfer_state = 941
+			transfer_state = 950
+			transfer_state = 949
+			transfer_state = 951
+			transfer_state = 945
+			transfer_state = 948
+			transfer_state = 946
+			transfer_state = 947
+
+			IF = {
+				limit = {
+					controls_state = 537
+				}
+				transfer_state = 537
+			}
+			IF = {
+				limit = {
+					controls_state = 555
+				}
+				transfer_state = 555
+			}
 
 			white_peace = JAP
 		}
